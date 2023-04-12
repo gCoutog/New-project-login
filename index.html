@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/baa3f1b5e8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="buttonsForm">
+            <div class="btncolor"></div>
+            <button id="btnSignin">Sign in</button>
+            <button id="btnSignup">Sign up</button>
+        </div>
+
+
+        <!-- Primeiro form -->
+        <form id="signin">
+            <input type="text" placeholder="Email" required/>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="password" placeholder="password" required/>
+            <i class="fa-solid fa-lock"></i>
+            <div class="divCheck">
+                <input type="checkbox"/>
+                <span>Remember password</span>
+            </div>
+            <button type="submit"> Sign in</button>
+        </form>
+        <!-- Fim do primeiro Form -->
+
+
+        <!-- Segundo Form -->
+        <form id="Signup">
+            <input type="text" placeholder="Email" required/>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="password" placeholder="password" required>
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" placeholder="Confirm password" required>
+            <i class="fa-solid fa-lock2"></i>
+            <div class="divCheck">
+                <input type="checkbox" required/>
+                <span>I accept the terms of use</span>
+            </div>
+            <button type="submit"> Sign up</button>
+        </form>
+        <!-- Fim do segundo form -->
+
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
